@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Reservas</title>
+</head>
+<body>
+    <h1>Carrito de Reservas</h1>
+    
+    <div th:if="${carritoVacio}">
+        <p>El carrito está vacío</p>
+    </div>
+    <div th:unless="${carritoVacio}">
+        <div th:each="item : ${carrito}">
+            <div>
+                <p>Habitación: <span th:text="${item.habitacion.numero}"></span></p>
+                <p>Precio: $<span th:text="${item.habitacion.precio}"></span></p>
+                <p>Fecha Inicio: <span th:text="${item.reserva.fechaInicio}"></span></p>
+                <p>Fecha Fin: <span th:text="${item.reserva.fechaFin}"></span></p>
+            </div>
+        </div>
+        <a th:href="@{/reserva/confirmar}">Confirmar Reserva</a>
+    </div>
+</body>
+</html>

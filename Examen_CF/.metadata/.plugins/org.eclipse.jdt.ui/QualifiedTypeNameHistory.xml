@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.cibertec.repositorio.IHabitacionRepository"/>
+    <fullyQualifiedTypeName name="com.cibertec.modelo.Usuario"/>
+    <fullyQualifiedTypeName name="com.cibertec.servicio.UsuarioService"/>
+    <fullyQualifiedTypeName name="com.cibertec.repositorio.IUsuarioRepository"/>
+    <fullyQualifiedTypeName name="com.cibertec.modelo.Habitacion"/>
+    <fullyQualifiedTypeName name="com.cibertec.servicio.HabitacionService"/>
+    <fullyQualifiedTypeName name="com.cibertec.modelo.Reserva"/>
+</qualifiedTypeNameHistroy>
